@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+#app {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Gothic A1", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 17px;
+  padding: 11px;
+  color: #808080;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  margin-bottom: 16px;
+}
+.wrapper {
+  max-width: 1440px;
+  display: flex;
+  flex: 1;
+}
